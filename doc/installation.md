@@ -17,7 +17,7 @@ OpenPose - Installation and FAQ
 ## Operating Systems
 - **Ubuntu** 14 and 16.
 - **Windows** 8 and 10.
-- **Nvidia Jetson TX2**, installation instructions in [doc/installation_jetson_tx2](./installation_jetson_tx2).
+- **Nvidia Jetson TX2**, installation instructions in [doc/installation_jetson_tx2](./installation_jetson_tx2.md).
 - OpenPose has also been used on **Windows 7**, **Mac**, **CentOS**, and **Nvidia Jetson (TK1 and TX1)** embedded systems. However, we do not officially support them at the moment.
 
 
