@@ -29,11 +29,11 @@ Use the following script for installation of both caffe and OpenPose:
 ## Usage
 It is for now recommended to use an external camera with the demo. To get to decent FPS you need to lower the net resolution:
 ```
-./build/openpose/openpose.bin -camera_resolution 640x480 -net_resolution 128x96
+./build/examples/openpose/openpose.bin -camera_resolution 640x480 -net_resolution 128x96
 ```
 
 To activate hand or face resolution please complete this command with the following options (warning, both simultaneously will cause out of memory error):
 ```
---hand -hand_net_resolution 256x256
---face -face_net_resolution 256x256
+-hand -hand_net_resolution 256x256
+-face -face_net_resolution 256x256
 ``` 
